@@ -4,7 +4,7 @@ nav.navbar {
 }
 
 /** Mobile menu styling **/
-@media screen and (max-width: map-get($grid-breakpoints, md)-0.02) {
+@media screen and (max-width: map-get($grid-breakpoints, md)) {
     .navbar {
         width: 100vw;
         background-color: var(--bs-white);

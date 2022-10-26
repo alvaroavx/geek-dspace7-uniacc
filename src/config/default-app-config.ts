@@ -309,20 +309,20 @@ export class DefaultAppConfig implements AppConfig {
       // Example use case: set the favicon based on the active theme.
       headTags: [
         {
-          // Insert <link rel="icon" href="assets/dspace/images/favicons/favicon.ico" sizes="any"/> into the <head> of the page.
+          // Insert <link rel="icon" href="assets/dspace/images/favicons/favicon.png" sizes="any"/> into the <head> of the page.
           tagName: 'link',
           attributes: {
             'rel': 'icon',
-            'href': 'assets/dspace/images/favicons/favicon.ico',
+            'href': 'assets/dspace/images/favicons/favicon.png',
             'sizes': 'any',
           }
         },
         {
-          // Insert <link rel="icon" href="assets/dspace/images/favicons/favicon.svg" type="image/svg+xml"/> into the <head> of the page.
+          // Insert <link rel="icon" href="assets/dspace/images/favicons/favicon.png" type="image/svg+xml"/> into the <head> of the page.
           tagName: 'link',
           attributes: {
             'rel': 'icon',
-            'href': 'assets/dspace/images/favicons/favicon.svg',
+            'href': 'assets/dspace/images/favicons/favicon.png',
             'type': 'image/svg+xml',
           }
         },
