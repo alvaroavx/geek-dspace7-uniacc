@@ -1,6 +1,7 @@
 :host {
   footer {
-    background-color: var(--ds-footer-bg);
+    background-color: #292929;
+    color: white;
     text-align: center;
     z-index: var(--ds-footer-z-index);
     border-top: var(--ds-footer-border);
@@ -39,6 +40,146 @@
 
           }
         }
+      }
+    }
+
+    /* MOD: Footer UNIACC */
+    div {
+      padding: 0 20px;
+    }
+    @media (max-width: 500px) {
+      div {
+        padding: 0;
+      }
+    }
+    a {
+      color: white;
+    }
+    ul {
+      list-style: disc;
+      text-align: left;
+      li {
+        font-size: 18px;
+      }
+    }
+    h2 {
+      text-align: left;
+      font-size: 22px;
+      font-weight: 600;
+
+      &:before {
+        content: '';
+        position: absolute;
+        width: 9px;
+        height: 9px;
+        background-color: #00A3E0;
+        top: 4px;
+        right: calc(100% + 8.5px);
+      }
+    }
+
+    #primero {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin-top: 30px;
+
+      .logos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 20%;
+        .logo {
+          height: 90%;
+          margin-bottom: 20px;
+        }
+        .acreditacion {
+          height: 80%;
+        }
+      }
+      @media (max-width: 500px) {
+        .logos {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          margin-bottom: 20px;
+          .logo {
+            width: 200px;
+          }
+          .acreditacion {
+            width: 150px;
+          }
+        }
+      }
+      
+
+      .otros {
+        h2.postgrado {
+          margin-bottom: 20px;
+        }
+      }
+      .siguenos {
+        h2 {
+          text-align: center;
+        }
+        ul.redes {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          padding: 0;
+          margin-bottom: 40px;
+          li {
+            float: left;
+          }
+        }
+      }
+    }
+    #segundo {
+      height: 40px;
+      .contacto {
+        ul {
+          list-style: none;
+          margin-left: 200px;
+          li {
+            float: left;
+            margin: 0 10px;
+            &:before {
+              content: "|";
+              background-color: #FFF;
+              position: absolute;
+              right: -5px;
+              top: 0;
+              height: 100%;
+              width: 1px;
+            }
+          }
+        }
+        @media (max-width: 500px) {
+          ul {
+            margin-left: 0px;
+            li {
+              float: left;
+            }
+          }
+          
+        }
+      }
+    }
+    #tercero {
+      background-color: black;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 16px;
+      span {
+        margin: 0 50px;
+      }
+    }
+    @media (max-width: 500px) {
+      #tercero {
+        flex-direction: column;
       }
     }
   }
