@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+           "name": "dspace-ui3",
+           "cwd": "/dspace/front/dspace-angular",
+           "script": "dist/server/main.js",
+           "env": {
+              "NODE_ENV": "production"
+           }
+        }
+    ]
+}
