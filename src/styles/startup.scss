@@ -6,3 +6,10 @@
   align-items: center;
   flex-direction: column;
 }
+#month-select {
+  visibility: hidden;
+  display: none;
+}
+#year-select {
+  width: 250px;
+}

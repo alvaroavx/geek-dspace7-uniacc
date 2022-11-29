@@ -695,6 +695,8 @@
 
   "browse.comcol.by.author": "By Author",
 
+  "browse.comcol.by.advisor": "By Thesis Advisor",
+
   "browse.comcol.by.dateissued": "By Issue Date",
 
   "browse.comcol.by.subject": "By Subject",
@@ -735,7 +737,7 @@
 
   "browse.startsWith.choose_year.label": "Choose the issue year",
 
-  "browse.startsWith.jump": "Filter results by year or month",
+  "browse.startsWith.jump": "Filter results by year",
 
   "browse.startsWith.months.april": "April",
 
@@ -2207,6 +2209,8 @@
 
   "item.page.author": "Authors",
 
+  "item.page.advisor": "Thesis Advisor",
+
   "item.page.citation": "Citation",
 
   "item.page.collections": "Collections",
@@ -3165,6 +3169,8 @@
 
   "publication.listelement.badge": "Publication",
 
+  "publication.page.advisor": "Thesis Advisor"
+
   "publication.page.description": "Description",
 
   "publication.page.edit": "Edit this item",
@@ -3449,6 +3455,8 @@
 
   "search.filters.applied.f.author": "Author",
 
+  "search.filters.applied.f.advisor": "Thesis Advisor",
+
   "search.filters.applied.f.dateIssued.max": "End date",
 
   "search.filters.applied.f.dateIssued.min": "Start date",
@@ -3484,6 +3492,12 @@
   "search.filters.filter.author.placeholder": "Author name",
 
   "search.filters.filter.author.label": "Search author name",
+
+  "search.filters.filter.advisor.head": "Thesis Advisor",
+
+	"search.filters.filter.advisor.placeholder": "Thesis Advisor",
+  
+  "search.filters.filter.advisor.label": "Search thesis advisor",
 
   "search.filters.filter.birthDate.head": "Birth Date",
 

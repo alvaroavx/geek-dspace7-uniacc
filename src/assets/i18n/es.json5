@@ -1002,6 +1002,9 @@
   // "browse.comcol.by.author": "By Author",
   "browse.comcol.by.author": "Por autor",
 
+  // "browse.comcol.by.advisor": "Por profesor guía",
+  "browse.comcol.by.advisor": "Por profesor guía",
+
   // "browse.comcol.by.dateissued": "By Issue Date",
   "browse.comcol.by.dateissued": "Por fecha de emisión",
 
@@ -1062,8 +1065,8 @@
   // "browse.startsWith.choose_year.label": "Choose the issue year",
   "browse.startsWith.choose_year.label": "Elija el año de publicación",
 
-  // "browse.startsWith.jump": "Filter results by year or month",
-  "browse.startsWith.jump": "Filtrar  resultado spor año o por mes:",
+  // "browse.startsWith.jump": "Filter results by year",
+  "browse.startsWith.jump": "Filtrar  resultados por año:",
 
   // "browse.startsWith.months.april": "April",
   "browse.startsWith.months.april": "abril",
@@ -3207,6 +3210,9 @@
   // "item.page.author": "Authors",
   "item.page.author": "Autores",
 
+  // "item.page.advisor": "Profesores Guía",
+  "item.page.advisor": "Profesores Guía",
+
   // "item.page.citation": "Citation",
   "item.page.citation": "Citación",
 
@@ -4556,6 +4562,9 @@
   // "publication.listelement.badge": "Publication",
   "publication.listelement.badge": "Publicación",
 
+  // "publication.page.advisor": "Profesor Guía"
+  "publication.page.advisor": "Profesor Guía"
+
   // "publication.page.description": "Description",
   "publication.page.description": "Descripción",
 
@@ -4965,6 +4974,9 @@
   // "search.filters.applied.f.author": "Author",
   "search.filters.applied.f.author": "Autor",
 
+  // "search.filters.applied.f.advisor": "Thesis Advisor",
+  "search.filters.applied.f.advisor": "Thesis Advisor",
+
   // "search.filters.applied.f.dateIssued.max": "End date",
   "search.filters.applied.f.dateIssued.max": "Fecha de finalización",
 
@@ -5017,6 +5029,15 @@
 
   // "search.filters.filter.author.label": "Search author name",
   "search.filters.filter.author.label": "Buscar por nombre de autor",
+
+  // "search.filters.filter.advisor.head": "Profesor Guía",
+  "search.filters.filter.advisor.head": "Profesor Guía",
+
+  // "search.filters.filter.advisor.label": "Buscar por profesor guía",
+  "search.filters.filter.advisor.label": "Buscar por profesor guía",
+  
+  // "search.filters.filter.advisor.placeholder": "Profesor guía",
+  "search.filters.filter.advisor.placeholder": "Profesor guía",
 
   // "search.filters.filter.birthDate.head": "Birth Date",
   "search.filters.filter.birthDate.head": "Fecha de nacimiento",

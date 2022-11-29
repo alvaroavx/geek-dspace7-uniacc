@@ -257,7 +257,7 @@ themes:
     - tagName: link
       attributes:
         rel: icon
-        href: assets/dspace/images/favicons/favicon.ico
+        href: assets/dspace/images/favicons/favicon.png
         sizes: any
     - tagName: link
       attributes:

@@ -39,3 +39,6 @@ package-lock.json
 /nbproject/
 
 junit.xml
+
+package.json
+yarn.lock
