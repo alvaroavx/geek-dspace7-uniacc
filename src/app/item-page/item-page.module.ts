@@ -46,7 +46,9 @@ import { OrcidPageComponent } from './orcid-page/orcid-page.component';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { OrcidSyncSettingsComponent } from './orcid-page/orcid-sync-settings/orcid-sync-settings.component';
 import { OrcidQueueComponent } from './orcid-page/orcid-queue/orcid-queue.component';
-
+/* OPENGEEK EDIT */
+import {ItemPageProfesorFieldComponent} from './simple/field-components/specific-field/profesor/item-page-profesor-field.component';
+import {ItemPageCarreraFieldComponent} from './simple/field-components/specific-field/carrera/item-page-carrera-field.component';
 
 const ENTRY_COMPONENTS = [
   // put only entry components that use custom decorator
@@ -65,6 +67,8 @@ const DECLARATIONS = [
   ItemPageDateFieldComponent,
   ItemPageAbstractFieldComponent,
   ItemPageUriFieldComponent,
+  ItemPageProfesorFieldComponent,
+  ItemPageCarreraFieldComponent,
   ItemPageFieldComponent,
   CollectionsComponent,
   FullFileSectionComponent,
