@@ -36,6 +36,11 @@
       [label]="'relationships.isAuthorOf' | translate">
     </ds-metadata-representation-list>
     <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.contributor.advisor']"
+      [separator]="'&lt;br/&gt;'"
+      [label]="'item.page.advisor'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
       [fields]="['journal.title']"
       [label]="'item.page.journal-title'">
     </ds-generic-item-page-field>
@@ -58,7 +63,6 @@
       [fields]="['dc.description']"
       [label]="'item.page.description'">
     </ds-generic-item-page-field>
-
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.subject']"
       [separator]="','"
@@ -67,6 +71,14 @@
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.identifier.citation']"
       [label]="'item.page.citation'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.uniacc.carrera']"
+      [label]="'item.page.carrera'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.rights']"
+      [label]="'item.page.rights'">
     </ds-generic-item-page-field>
     <ds-item-page-uri-field [item]="object"
       [fields]="['dc.identifier.uri']"
