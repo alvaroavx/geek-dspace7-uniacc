@@ -1,0 +1,15 @@
+{
+  // DSpace default: "All of DSpace"
+  "menu.section.browse_global": "Browse DSpace",
+
+  // DSpace default: "DSpace Angular :: "
+  "repository.title.prefix": "DSpace :: ",
+
+	"search.filters.filter.advisor.head": "Thesis Advisor",
+	"search.filters.filter.advisor.label": "Search thesis advisor",
+	"search.filters.filter.advisor.placeholder": "Thesis Advisor",
+	"search.filters.applied.f.advisor": "Thesis Advisor",
+	"browse.comcol.by.advisor": "By Thesis Advisor",
+  "item.page.advisor": "Thesis Advisor",
+  "publication.page.advisor": "Thesis Advisor"
+}

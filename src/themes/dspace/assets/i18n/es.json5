@@ -1,0 +1,15 @@
+{
+  // DSpace default: "All of DSpace"
+  "menu.section.browse_global": "Navega",
+
+  // DSpace default: "DSpace Angular :: "
+  "repository.title.prefix": "Repositorio UNIACC :: ",
+  
+  "search.filters.filter.advisor.head": "Profesor Guía",
+  "search.filters.filter.advisor.label": "Buscar por profesor guía",
+  "search.filters.filter.advisor.placeholder": "Profesor guía",
+  "search.filters.applied.f.advisor": "Profesor guía",
+  "browse.comcol.by.advisor": "Por profesor guía",
+  "item.page.advisor": "Profesores Guía",
+  "publication.page.advisor": "Profesor Guía"
+}
