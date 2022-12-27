@@ -55,3 +55,8 @@ a.navbar-brand img {
     color: var(--ds-navbar-link-color-hover);
   }
 }
+
+a.nav-item.nav-link {
+  /*display: none;*/
+  background-color: red;
+}

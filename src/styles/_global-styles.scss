@@ -205,4 +205,11 @@ ds-dynamic-form-control-container.d-none {
   }
 }
 
+/* AVARGAS: esconder estadisticas y login */
+a.nav-item.nav-link[title="menu.section.statistics"] {
+  display: none;
+}
+ul.navbar-nav.ng-tns-c217-9 {
+  display: none;
+}
 
