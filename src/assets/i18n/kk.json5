@@ -830,20 +830,44 @@
   // "admin.metadata-import.breadcrumbs": "Import Metadata",
   "admin.metadata-import.breadcrumbs": "Метадеректерді импорттау",
 
+  // "admin.batch-import.breadcrumbs": "Import Batch",
+  // TODO New key - Add a translation
+  "admin.batch-import.breadcrumbs": "Import Batch",
+
   // "admin.metadata-import.title": "Import Metadata",
   "admin.metadata-import.title": "Метадеректерді импорттау",
+
+  // "admin.batch-import.title": "Import Batch",
+  // TODO New key - Add a translation
+  "admin.batch-import.title": "Import Batch",
 
   // "admin.metadata-import.page.header": "Import Metadata",
   "admin.metadata-import.page.header": "Метадеректерді импорттау",
 
+  // "admin.batch-import.page.header": "Import Batch",
+  // TODO New key - Add a translation
+  "admin.batch-import.page.header": "Import Batch",
+
   // "admin.metadata-import.page.help": "You can drop or browse CSV files that contain batch metadata operations on files here",
   "admin.metadata-import.page.help": "Мұнда файлдарда метадеректермен пакеттік операциялары бар CSV файлдарын жоюға немесе көруге болады",
+
+  // "admin.batch-import.page.help": "Select the Collection to import into. Then, drop or browse to a Simple Archive Format (SAF) zip file that includes the Items to import",
+  // TODO New key - Add a translation
+  "admin.batch-import.page.help": "Select the Collection to import into. Then, drop or browse to a Simple Archive Format (SAF) zip file that includes the Items to import",
 
   // "admin.metadata-import.page.dropMsg": "Drop a metadata CSV to import",
   "admin.metadata-import.page.dropMsg": "Импорттау үшін метадеректердің CSV файлын сүйреңіз",
 
+  // "admin.batch-import.page.dropMsg": "Drop a batch ZIP to import",
+  // TODO New key - Add a translation
+  "admin.batch-import.page.dropMsg": "Drop a batch ZIP to import",
+
   // "admin.metadata-import.page.dropMsgReplace": "Drop to replace the metadata CSV to import",
   "admin.metadata-import.page.dropMsgReplace": "Импорттау үшін CSV метадеректерін ауыстыру үшін тастаңыз",
+
+  // "admin.batch-import.page.dropMsgReplace": "Drop to replace the batch ZIP to import",
+  // TODO New key - Add a translation
+  "admin.batch-import.page.dropMsgReplace": "Drop to replace the batch ZIP to import",
 
   // "admin.metadata-import.page.button.return": "Back",
   // TODO Source message changed - Revise the translation
@@ -852,8 +876,16 @@
   // "admin.metadata-import.page.button.proceed": "Proceed",
   "admin.metadata-import.page.button.proceed": "Жалғастыра беріңіз",
 
+  // "admin.metadata-import.page.button.select-collection": "Select Collection",
+  // TODO New key - Add a translation
+  "admin.metadata-import.page.button.select-collection": "Select Collection",
+
   // "admin.metadata-import.page.error.addFile": "Select file first!",
   "admin.metadata-import.page.error.addFile": "Алдымен файлды таңдаңыз!",
+
+  // "admin.batch-import.page.error.addFile": "Select Zip file first!",
+  // TODO New key - Add a translation
+  "admin.batch-import.page.error.addFile": "Select Zip file first!",
 
   // "admin.metadata-import.page.validateOnly": "Validate Only",
   // TODO New key - Add a translation
@@ -863,8 +895,13 @@
   // TODO New key - Add a translation
   "admin.metadata-import.page.validateOnly.hint": "When selected, the uploaded CSV will be validated. You will receive a report of detected changes, but no changes will be saved.",
 
+  // "admin.batch-import.page.validateOnly.hint": "When selected, the uploaded ZIP will be validated. You will receive a report of detected changes, but no changes will be saved.",
+  // TODO New key - Add a translation
+  "admin.batch-import.page.validateOnly.hint": "When selected, the uploaded ZIP will be validated. You will receive a report of detected changes, but no changes will be saved.",
 
-
+  // "admin.batch-import.page.remove": "remove",
+  // TODO New key - Add a translation
+  "admin.batch-import.page.remove": "remove",
 
   // "auth.errors.invalid-user": "Invalid email address or password.",
   // TODO New key - Add a translation
@@ -1069,6 +1106,10 @@
   // "browse.comcol.by.author": "By Author",
   "browse.comcol.by.author": "Авторы",
 
+  // "browse.comcol.by.advisor": "By Thesis Advisor",
+  // TODO New key - Add a translation
+  "browse.comcol.by.advisor": "By Thesis Advisor",
+
   // "browse.comcol.by.dateissued": "By Issue Date",
   "browse.comcol.by.dateissued": "Шығарылған Күні Бойынша",
 
@@ -1134,7 +1175,7 @@
   // TODO New key - Add a translation
   "browse.startsWith.choose_year.label": "Choose the issue year",
 
-  // "browse.startsWith.jump": "Filter results by year or month",
+  // "browse.startsWith.jump": "Filter results by year",
   // TODO Source message changed - Revise the translation
   "browse.startsWith.jump": "Индекстегі нүктеге өту:",
 
@@ -1432,7 +1473,8 @@
   // "collection.edit.tabs.source.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
   "collection.edit.tabs.source.notifications.discarded.content": "Өзгерістеріңіз алынып тасталынды (жойылды). Өзгерістерді қалпына келтіру үшін «Болдырмау» түймесін басыңыз",
 
-  // "collection.edit.tabs.source.notifications.discarded.title": "Changed discarded",
+  // "collection.edit.tabs.source.notifications.discarded.title": "Changes discarded",
+  // TODO Source message changed - Revise the translation
   "collection.edit.tabs.source.notifications.discarded.title": "Өзгерістер алынып тасталынды (жойылды)",
 
   // "collection.edit.tabs.source.notifications.invalid.content": "Your changes were not saved. Please make sure all fields are valid before you save.",
@@ -2009,12 +2051,33 @@
 
 
 
+  // "cookies.consent.app.title.google-recaptcha": "Google reCaptcha",
+  // TODO New key - Add a translation
+  "cookies.consent.app.title.google-recaptcha": "Google reCaptcha",
+
+  // "cookies.consent.app.description.google-recaptcha": "We use google reCAPTCHA service during registration and password recovery",
+  // TODO New key - Add a translation
+  "cookies.consent.app.description.google-recaptcha": "We use google reCAPTCHA service during registration and password recovery",
+
+
+
   // "cookies.consent.purpose.functional": "Functional",
   "cookies.consent.purpose.functional": "Функционалды",
 
   // "cookies.consent.purpose.statistical": "Statistical",
   "cookies.consent.purpose.statistical": "Статистикалық",
 
+  // "cookies.consent.purpose.registration-password-recovery": "Registration and Password recovery",
+  // TODO New key - Add a translation
+  "cookies.consent.purpose.registration-password-recovery": "Registration and Password recovery",
+
+  // "cookies.consent.purpose.sharing": "Sharing",
+  // TODO New key - Add a translation
+  "cookies.consent.purpose.sharing": "Sharing",
+
+  // "curation-task.task.citationpage.label":  "Generate Citation Page",
+  // TODO New key - Add a translation
+  "curation-task.task.citationpage.label":  "Generate Citation Page",
 
   // "curation-task.task.checklinks.label":  "Check Links in Metadata",
   "curation-task.task.checklinks.label":  "Метадеректердегі Сілтемелерді Тексеріңіз",
@@ -2138,6 +2201,14 @@
   // "dso-selector.export-metadata.dspaceobject.head": "Export metadata from",
   "dso-selector.export-metadata.dspaceobject.head": "Метадеректерді экспорттау",
 
+  // "dso-selector.export-batch.dspaceobject.head": "Export Batch (ZIP) from",
+  // TODO New key - Add a translation
+  "dso-selector.export-batch.dspaceobject.head": "Export Batch (ZIP) from",
+
+  // "dso-selector.import-batch.dspaceobject.head": "Import batch from",
+  // TODO New key - Add a translation
+  "dso-selector.import-batch.dspaceobject.head": "Import batch from",
+
   // "dso-selector.no-results": "No {{ type }} found",
   "dso-selector.no-results": "Табылған жоқ {{ type }}",
 
@@ -2187,6 +2258,22 @@
 
   // "confirmation-modal.export-metadata.confirm": "Export",
   "confirmation-modal.export-metadata.confirm":"Экспорт",
+
+  // "confirmation-modal.export-batch.header": "Export batch (ZIP) for {{ dsoName }}",
+  // TODO New key - Add a translation
+  "confirmation-modal.export-batch.header": "Export batch (ZIP) for {{ dsoName }}",
+
+  // "confirmation-modal.export-batch.info": "Are you sure you want to export batch (ZIP) for {{ dsoName }}",
+  // TODO New key - Add a translation
+  "confirmation-modal.export-batch.info": "Are you sure you want to export batch (ZIP) for {{ dsoName }}",
+
+  // "confirmation-modal.export-batch.cancel": "Cancel",
+  // TODO New key - Add a translation
+  "confirmation-modal.export-batch.cancel": "Cancel",
+
+  // "confirmation-modal.export-batch.confirm": "Export",
+  // TODO New key - Add a translation
+  "confirmation-modal.export-batch.confirm": "Export",
 
   // "confirmation-modal.delete-eperson.header": "Delete EPerson \"{{ dsoName }}\"",
   "confirmation-modal.delete-eperson.header": "EPerson \"{{ dsoName }}\" жою",
@@ -2376,7 +2463,8 @@
   // "forgot-password.form.head": "Forgot Password",
   "forgot-password.form.head": "Құпия сөзді ұмыттыңыз ба",
 
-  // "forgot-password.form.info": "Enter a new password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.",
+  // "forgot-password.form.info": "Enter a new password in the box below, and confirm it by typing it again into the second box.",
+  // TODO Source message changed - Revise the translation
   "forgot-password.form.info": "Төмендегі жолаққа жаңа құпия сөзді енгізіп, оны екінші жолаққа қайта теру арқылы растаңыз. Оның ұзындығы кемінде алты таңба болуы керек.",
 
   // "forgot-password.form.card.security": "Security",
@@ -2400,9 +2488,6 @@
   // "forgot-password.form.error.matching-passwords": "The passwords do not match.",
   "forgot-password.form.error.matching-passwords": "Құпия сөздер сәйкес келмейді.",
 
-  // "forgot-password.form.error.password-length": "The password should be at least 6 characters long.",
-  "forgot-password.form.error.password-length":"Құпия сөз кемінде 6 таңбадан тұруы керек.",
-
   // "forgot-password.form.notification.error.title": "Error when trying to submit new password",
   "forgot-password.form.notification.error.title": "Жаңа құпия сөзді жіберу әрекеті кезіндегі қате",
 
@@ -2414,7 +2499,6 @@
 
   // "forgot-password.form.submit": "Submit password",
   "forgot-password.form.submit": "Құпия сөзді жіберу",
-
 
 
   // "form.add": "Add more",
@@ -3070,7 +3154,8 @@
   // "item.edit.metadata.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
   "item.edit.metadata.notifications.discarded.content": "Өзгерістеріңіз жойылды. Өзгерістерді қалпына келтіру үшін 'Болдырмау' түймесін басыңыз",
 
-  // "item.edit.metadata.notifications.discarded.title": "Changed discarded",
+  // "item.edit.metadata.notifications.discarded.title": "Changes discarded",
+  // TODO Source message changed - Revise the translation
   "item.edit.metadata.notifications.discarded.title": "Өзгертілген жойылды",
 
   // "item.edit.metadata.notifications.error.title": "An error occurred",
@@ -3085,7 +3170,8 @@
   // "item.edit.metadata.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
   "item.edit.metadata.notifications.outdated.content": "Сіз қазір жұмыс істеп жатқан элементті басқа пайдаланушы өзгертті. Қақтығыстардың алдын алу үшін сіздің қазіргі өзгерістеріңіз жойылады",
 
-  // "item.edit.metadata.notifications.outdated.title": "Changed outdated",
+  // "item.edit.metadata.notifications.outdated.title": "Changes outdated",
+  // TODO Source message changed - Revise the translation
   "item.edit.metadata.notifications.outdated.title": "Өзгертілген ескірген",
 
   // "item.edit.metadata.notifications.saved.content": "Your changes to this item's metadata were saved.",
@@ -3463,6 +3549,10 @@
 
   // "item.page.author": "Authors",
   "item.page.author": "Авторлар",
+
+  // "item.page.advisor": "Thesis Advisor",
+  // TODO New key - Add a translation
+  "item.page.advisor": "Thesis Advisor",
 
   // "item.page.citation": "Citation",
   "item.page.citation":"Дәйексөз",
@@ -4197,6 +4287,9 @@
   // "menu.section.export_metadata": "Metadata",
   "menu.section.export_metadata": "Метадеректер",
 
+  // "menu.section.export_batch": "Batch Export (ZIP)",
+  // TODO New key - Add a translation
+  "menu.section.export_batch": "Batch Export (ZIP)",
 
 
   // "menu.section.icon.access_control": "Access Control menu section",
@@ -4373,9 +4466,6 @@
   // "mydspace.description": "",
   "mydspace.description": "",
 
-  // "mydspace.general.text-here": "here",
-  "mydspace.general.text-here":"Мұнда",
-
   // "mydspace.messages.controller-help": "Select this option to send a message to item's submitter.",
   "mydspace.messages.controller-help": "Элемент жіберушіге хабарлама жіберу үшін осы опцияны таңдаңыз.",
 
@@ -4492,9 +4582,6 @@
   // "mydspace.upload.upload-multiple-successful": "{{qty}} new workspace items created.",
   "mydspace.upload.upload-multiple-successful": "{{qty}} жаңа жұмыс кеңістігі элементтері жасалды.",
 
-  // "mydspace.upload.upload-successful": "New workspace item created. Click {{here}} for edit it.",
-  "mydspace.upload.upload-successful": "Жаңа жұмыс кеңістігі элементі жасалды. Оны өңдеу үшін {{осында}} басыңыз.",
-
   // "mydspace.view-btn": "View",
   "mydspace.view-btn": "Көру",
 
@@ -4550,6 +4637,10 @@
 
   // "orgunit.listelement.badge": "Organizational Unit",
   "orgunit.listelement.badge": "Ұйымдық бөлімше",
+
+  // "orgunit.listelement.no-title": "Untitled",
+  // TODO New key - Add a translation
+  "orgunit.listelement.no-title": "Untitled",
 
   // "orgunit.page.city": "City",
   "orgunit.page.city": "Қала",
@@ -4910,10 +5001,8 @@
   // "profile.security.form.error.matching-passwords": "The passwords do not match.",
   "profile.security.form.error.matching-passwords": "Құпия сөздер сәйкес келмейді.",
 
-  // "profile.security.form.error.password-length": "The password should be at least 6 characters long.",
-  "profile.security.form.error.password-length": "Құпия сөздің ұзындығы кемінде 6 таңба болуы керек.",
-
-  // "profile.security.form.info": "Optionally, you can enter a new password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.",
+  // "profile.security.form.info": "Optionally, you can enter a new password in the box below, and confirm it by typing it again into the second box.",
+  // TODO Source message changed - Revise the translation
   "profile.security.form.info": "Қосымша, төмендегі жолаққа жаңа құпия сөзді енгізіп, оны екінші жолаққа қайта теру арқылы растай аласыз. Оның ұзындығы кемінде алты таңба болуы керек.",
 
   // "profile.security.form.label.password": "Password",
@@ -4921,6 +5010,10 @@
 
   // "profile.security.form.label.passwordrepeat": "Retype to confirm",
   "profile.security.form.label.passwordrepeat":"Растау үшін қайта теріңіз",
+
+  // "profile.security.form.label.current-password": "Current password",
+  // TODO New key - Add a translation
+  "profile.security.form.label.current-password": "Current password",
 
   // "profile.security.form.notifications.success.content": "Your changes to the password were saved.",
   "profile.security.form.notifications.success.content": "Құпия сөзге енгізілген өзгертулеріңіз сақталды.",
@@ -4931,11 +5024,16 @@
   // "profile.security.form.notifications.error.title": "Error changing passwords",
   "profile.security.form.notifications.error.title": "Құпия сөздерді өзгерту қатесі",
 
-  // "profile.security.form.notifications.error.not-long-enough": "The password has to be at least 6 characters long.",
-  "profile.security.form.notifications.error.not-long-enough": "Құпия сөз кемінде 6 таңбадан тұруы керек.",
+  // "profile.security.form.notifications.error.change-failed": "An error occurred while trying to change the password. Please check if the current password is correct.",
+  // TODO New key - Add a translation
+  "profile.security.form.notifications.error.change-failed": "An error occurred while trying to change the password. Please check if the current password is correct.",
 
   // "profile.security.form.notifications.error.not-same": "The provided passwords are not the same.",
   "profile.security.form.notifications.error.not-same": "Берілген құпия сөздер бірдей емес.",
+
+  // "profile.security.form.notifications.error.general": "Please fill required fields of security form.",
+  // TODO New key - Add a translation
+  "profile.security.form.notifications.error.general": "Please fill required fields of security form.",
 
   // "profile.title": "Update Profile",
   "profile.title":"Профильді жаңарту",
@@ -4985,6 +5083,10 @@
 
   // "publication.listelement.badge": "Publication",
   "publication.listelement.badge": "Басылым",
+
+  // "publication.page.advisor": "Thesis Advisor"
+  // TODO New key - Add a translation
+  "publication.page.advisor": "Thesis Advisor"
 
   // "publication.page.description": "Description",
   "publication.page.description": "Сипаттамасы",
@@ -5065,7 +5167,8 @@
   // "register-page.create-profile.security.header": "Security",
   "register-page.create-profile.security.header": "Қауіпсіздік",
 
-  // "register-page.create-profile.security.info": "Please enter a password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.",
+  // "register-page.create-profile.security.info": "Please enter a password in the box below, and confirm it by typing it again into the second box.",
+  // TODO Source message changed - Revise the translation
   "register-page.create-profile.security.info": "Төмендегі өріске парольді енгізіп, оны екінші өріске қайта енгізу арқылы растаңыз. Онда кемінде алты таңба болуы керек.",
 
   // "register-page.create-profile.security.label.password": "Password *",
@@ -5079,9 +5182,6 @@
 
   // "register-page.create-profile.security.error.matching-passwords": "The passwords do not match.",
   "register-page.create-profile.security.error.matching-passwords": "Парольдер бірдей емес.",
-
-  // "register-page.create-profile.security.error.password-length": "The password should be at least 6 characters long.",
-  "register-page.create-profile.security.error.password-length": "Пароль кем дегенде 6 таңбадан тұруы керек.",
 
   // "register-page.create-profile.submit": "Complete Registration",
   "register-page.create-profile.submit": "Тіркеуді аяқтау",
@@ -5132,7 +5232,29 @@
   // "register-page.registration.error.content": "An error occured when registering the following email address: {{ email }}",
   "register-page.registration.error.content":"Келесі электрондық пошта мекенжайын тіркеу кезінде қате пайда болды: {{ email }}",
 
+  // "register-page.registration.error.recaptcha": "Error when trying to authenticate with recaptcha",
+  // TODO New key - Add a translation
+  "register-page.registration.error.recaptcha": "Error when trying to authenticate with recaptcha",
 
+  // "register-page.registration.google-recaptcha.must-accept-cookies": "In order to register you must accept the <b>Registration and Password recovery</b> (Google reCaptcha) cookies.",
+  // TODO New key - Add a translation
+  "register-page.registration.google-recaptcha.must-accept-cookies": "In order to register you must accept the <b>Registration and Password recovery</b> (Google reCaptcha) cookies.",
+
+  // "register-page.registration.google-recaptcha.open-cookie-settings": "Open cookie settings",
+  // TODO New key - Add a translation
+  "register-page.registration.google-recaptcha.open-cookie-settings": "Open cookie settings",
+
+  // "register-page.registration.google-recaptcha.notification.title": "Google reCaptcha",
+  // TODO New key - Add a translation
+  "register-page.registration.google-recaptcha.notification.title": "Google reCaptcha",
+
+  // "register-page.registration.google-recaptcha.notification.message.error": "An error occurred during reCaptcha verification",
+  // TODO New key - Add a translation
+  "register-page.registration.google-recaptcha.notification.message.error": "An error occurred during reCaptcha verification",
+
+  // "register-page.registration.google-recaptcha.notification.message.expired": "Verification expired. Please verify again.",
+  // TODO New key - Add a translation
+  "register-page.registration.google-recaptcha.notification.message.expired": "Verification expired. Please verify again.",
 
   // "relationships.add.error.relationship-type.content": "No suitable match could be found for relationship type {{ type }} between the two items",
   "relationships.add.error.relationship-type.content":"Екі элемент арасындағы байланыс түрі {{ type }} үшін сәйкес сәйкестікті табу мүмкін емес",
@@ -5411,6 +5533,10 @@
   // "search.filters.applied.f.author": "Author",
   "search.filters.applied.f.author": "Автор",
 
+  // "search.filters.applied.f.advisor": "Thesis Advisor",
+  // TODO New key - Add a translation
+  "search.filters.applied.f.advisor": "Thesis Advisor",
+
   // "search.filters.applied.f.dateIssued.max": "End date",
   "search.filters.applied.f.dateIssued.max": "Аяқталу күні",
 
@@ -5465,6 +5591,18 @@
   // "search.filters.filter.author.label": "Search author name",
   // TODO New key - Add a translation
   "search.filters.filter.author.label": "Search author name",
+
+  // "search.filters.filter.advisor.head": "Thesis Advisor",
+  // TODO New key - Add a translation
+  "search.filters.filter.advisor.head": "Thesis Advisor",
+
+  // "search.filters.filter.advisor.placeholder": "Thesis Advisor",
+  // TODO New key - Add a translation
+  "search.filters.filter.advisor.placeholder": "Thesis Advisor",
+
+  // "search.filters.filter.advisor.label": "Search thesis advisor",
+  // TODO New key - Add a translation
+  "search.filters.filter.advisor.label": "Search thesis advisor",
 
   // "search.filters.filter.birthDate.head": "Birth Date",
   "search.filters.filter.birthDate.head": "Туған күні",
@@ -7736,11 +7874,31 @@
   // "person.orcid.registry.auth": "ORCID Authorizations",
   // TODO New key - Add a translation
   "person.orcid.registry.auth": "ORCID Authorizations",
-
   // "home.recent-submissions.head": "Recent Submissions",
   // TODO New key - Add a translation
   "home.recent-submissions.head": "Recent Submissions",
 
+  // "search.filters.filter.advisor.head": "Thesis Advisor",
+  // TODO New key - Add a translation
+  "search.filters.filter.advisor.head": "Thesis Advisor",
+  // "search.filters.filter.advisor.label": "Search thesis advisor",
+  // TODO New key - Add a translation
+  "search.filters.filter.advisor.label": "Search thesis advisor",
+  // "search.filters.filter.advisor.placeholder": "Thesis Advisor",
+  // TODO New key - Add a translation
+  "search.filters.filter.advisor.placeholder": "Thesis Advisor",
+  // "search.filters.applied.f.advisor": "Thesis Advisor",
+  // TODO New key - Add a translation
+  "search.filters.applied.f.advisor": "Thesis Advisor",
+  // "browse.comcol.by.advisor": "By Thesis Advisor",
+  // TODO New key - Add a translation
+  "browse.comcol.by.advisor": "By Thesis Advisor",
+  // "item.page.advisor": "Thesis Advisor",
+  // TODO New key - Add a translation
+  "item.page.advisor": "Thesis Advisor",
+  // "publication.page.advisor": "Thesis Advisor"
+  // TODO New key - Add a translation
+  "publication.page.advisor": "Thesis Advisor"
 
 
 }
