@@ -723,6 +723,8 @@
 
   "browse.metadata.title.breadcrumbs": "Browse by Title",
 
+  "browse.metadata.advisor.breadcrumbs": "Browse by Thesis Advisor",
+
   "pagination.next.button": "Next",
 
   "pagination.previous.button": "Previous",
@@ -2279,6 +2281,10 @@
 
   "item.page.claim.button": "Claim",
 
+  "item.page.carrera": "Carrera",
+
+  "item.page.rights": "Derechos",
+
   "item.page.claim.tooltip": "Claim this item as profile",
 
   "item.preview.dc.identifier.uri": "Identifier:",
@@ -2629,6 +2635,8 @@
   "menu.section.browse_global_by_subject": "By Subject",
 
   "menu.section.browse_global_by_title": "By Title",
+
+  "menu.section.browse_global_by_advisor": "By Thesis Advisor",
 
   "menu.section.browse_global_communities_and_collections": "Communities & Collections",
 

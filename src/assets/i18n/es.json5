@@ -1072,6 +1072,9 @@
   // "browse.metadata.title": "Title",
   "browse.metadata.title": "Título",
 
+  // "browse.metadata.advisor": "Title",
+  "browse.metadata.advisor": "Profesor Guía",
+
   // "browse.metadata.author.breadcrumbs": "Browse by Author",
   "browse.metadata.author.breadcrumbs": "Buscar por autor",
 
@@ -1083,6 +1086,9 @@
 
   // "browse.metadata.title.breadcrumbs": "Browse by Title",
   "browse.metadata.title.breadcrumbs": "Examinar por título",
+
+  // "browse.metadata.advisor.breadcrumbs": "Examinar por profesor guía",
+  "browse.metadata.advisor.breadcrumbs": "Examinar por profesor guía",
 
   // "pagination.next.button": "Next",
   "pagination.next.button": "Siguiente",
@@ -3387,6 +3393,12 @@
   // "item.page.claim.button": "Claim",
   "item.page.claim.button": "Reclamar",
 
+  // "item.page.carrera": "Career",
+  "item.page.carrera": "Carrera",
+
+  // "item.page.rights": "Rights",
+  "item.page.rights": "Derechos",
+
   // "item.page.claim.tooltip": "Claim this item as profile",
   "item.page.claim.tooltip": "Reclame este item como perfil",
 
@@ -3899,6 +3911,11 @@
 
   // "menu.section.browse_global_by_title": "By Title",
   "menu.section.browse_global_by_title": "Por titulo",
+
+  // "menu.section.browse_global_by_advisor": "By Thesis Advisor",
+  "menu.section.browse_global_by_advisor": "Por profesor guía",
+
+  	Por profesor guía
 
   // "menu.section.browse_global_communities_and_collections": "Communities & Collections",
   "menu.section.browse_global_communities_and_collections": "Comunidades",
